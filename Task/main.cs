@@ -55,7 +55,7 @@ namespace Task
                         }
                         catch
                         {
-                            Console.WriteLine("Пожалуйста введите целое число!");
+                            Console.WriteLine("Пожалуйста введите число, которое удовлетворяет условиям!");
                             Console.ReadKey();
                             answer = "3";
 
@@ -70,6 +70,8 @@ namespace Task
                 else
                     answer = "0";
             }
+            Console.Clear();
+            Console.WriteLine();
         }
     }
 }
