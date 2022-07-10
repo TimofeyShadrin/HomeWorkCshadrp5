@@ -11,7 +11,7 @@ namespace Task
             Console.Clear();
             Console.WriteLine("Вы смотрите решение для задачи No 36\n");
             Methods objectTask36 = new Methods();
-            int[] arrayTask36 = objectTask36.GetRandomArrayInt(5, 7, -99, 100);
+            int[] arrayTask36 = objectTask36.GetRandomArrayInt(5, 11, -99, 100);
             Console.WriteLine(
                 "Компьютер создал следующий массив,\n"
                     + "заполненный случайными числами.\n"

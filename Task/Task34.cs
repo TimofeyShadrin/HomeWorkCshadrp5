@@ -10,7 +10,7 @@
             Console.Clear();
             Console.WriteLine("Вы смотрите решение для задачи No 34\n");
             Methods objectTask34 = new Methods();
-            int[] arrayTask34 = objectTask34.GetRandomArrayInt(5, 7, 100, 1000);
+            int[] arrayTask34 = objectTask34.GetRandomArrayInt(5, 11, 100, 1000);
             Console.WriteLine(
                 "Компьютер создал следующий массив,\n"
                     + "заполненный случайными положительными трехзначными цифрами\n"
