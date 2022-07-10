@@ -2,9 +2,10 @@ namespace Task
 {
     class Program
     {
+        static public string? answer = "0";
         public static void Main(string[] args)
         {
-            string? answer = "0";
+            //string? answer = "0";
             while (true)
             {
                 if (answer == "0")

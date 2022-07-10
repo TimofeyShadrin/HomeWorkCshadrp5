@@ -20,6 +20,10 @@
             Decisions forTask34 = new Decisions();
             int quantityEven = forTask34.GetQuantityEven(arrayTask34);
             Console.WriteLine($"С количеством четных чисел равным: {quantityEven}\n");
+            Console.WriteLine();
+            Methods number1 = new Methods();
+                    number1.PrintNumber(quantityEven, 9);
+            Console.WriteLine();
             Console.Write("Нажмите любую клавишу для выхода в основное меню: ");
         }
     }

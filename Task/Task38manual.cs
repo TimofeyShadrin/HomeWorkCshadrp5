@@ -18,7 +18,7 @@ namespace Task
             double diff = forTask38Manual.DiffMaxMinElements(array);
             Console.WriteLine(
                 $"\nИ разница у него между максимальным и\n"
-                    + $"минимальным элементом массива равна = {Math.Round(diff, 3)}\n"
+                    + $"минимальным элементом массива равна: {Math.Round(diff, 3)}\n"
             );
             Console.Write("Нажмите любую клавишу для выхода в основное меню: ");
         }
