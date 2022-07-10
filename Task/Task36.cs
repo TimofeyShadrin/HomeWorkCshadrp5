@@ -22,8 +22,8 @@ namespace Task
             int sum = forTask36.GetSumOfOddPositions(arrayTask36);
             Console.WriteLine($"И с суммой элементов, стоящих на нечетных позициях и равной: {sum}\n");
             Console.WriteLine();
-            Methods number1 = new Methods();
-                    number1.PrintNumber(sum, 9);
+            Methods number2 = new Methods();
+                    number2.PrintNumber(sum, 9);
             Console.WriteLine();
             Console.Write("Нажмите любую клавишу для выхода в основное меню: ");
         }

@@ -20,6 +20,12 @@ namespace Task
                 $"\nИ разница у него между максимальным и\n"
                     + $"минимальным элементом массива равна: {Math.Round(diff, 3)}\n"
             );
+            int size = array.Length + 12;
+            byte top = Convert.ToByte(size);
+            Console.WriteLine();
+            Methods number3 = new Methods();
+                    number3.PrintNumber(diff, top);
+            Console.WriteLine();
             Console.Write("Нажмите любую клавишу для выхода в основное меню: ");
         }
     }

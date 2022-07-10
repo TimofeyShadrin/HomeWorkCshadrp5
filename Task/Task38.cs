@@ -24,6 +24,10 @@ namespace Task
                 "И с разницей между максимальным и минимальным элементом массива,\n"
                     + $"равной: {Math.Round(diff, 3)}\n"
             );
+            Console.WriteLine();
+            Methods number3 = new Methods();
+                    number3.PrintNumber(diff, 10);
+            Console.WriteLine();
             Console.Write("Нажмите любую клавишу для выхода в основное меню: ");
         }
     }
